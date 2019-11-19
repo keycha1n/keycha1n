@@ -8,7 +8,9 @@ if __name__ == '__main__':
     kprint("Searching for device in DFU mode...")
     device = dfu.acquire_device()
     identifier = device.serial_number
-    kprint("Found iDevice in DFU mode with serial number: " + str(identifier))
+    kprint("Found iDevice in DFU mode with serial number: ")
+    kprint(str(identifier))
+    kprint(" ")
     kprint("Launching checkra1n jailbreak...")
     ######################################
     #TODO: launch checkra1n once released
