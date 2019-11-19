@@ -2,10 +2,6 @@
 
 open-source tool for Raspberry Pi jailbreak dongle (keycha1n)
 
-## Plans for the futur
-
-- Add checkra1n to dongle
-- Make keycha1n the smallest and most portable
 
 ## Credit
 
