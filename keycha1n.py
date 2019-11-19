@@ -1,4 +1,4 @@
-import dfu, utils
+import dfu, utils, subprocess
 kprint = utils.kprint
 
 if __name__ == '__main__':
@@ -9,9 +9,15 @@ if __name__ == '__main__':
     device = dfu.acquire_device()
     identifier = device.serial_number
     kprint("Found iDevice in DFU mode with serial number: " + str(identifier))
-    kprint("Launching checkra1n jailbreak")
+    kprint("Launching checkra1n jailbreak...")
     ######################################
     #TODO: launch checkra1n once released
+    #args = ("bin/checkra1n", "--this-is-an-arg", "-flag")
+    #checkra1n = subprocess.Popen(args, stdout=subprocess.PIPE)
+    #checkra1n.wait()
+    #output = checkra1n.stdout.read()
+    #kprint("checkra1n stdout: ")
+    #print(output)
     ######################################
     kprint("There is no linux version of the checkra1n jailbreak available at the moment.")
     kprint("We will update keycha1n as soon as the official Linux version is released.")
