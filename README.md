@@ -1,6 +1,6 @@
 # keycha1n project
 
-open-source tool for Raspberry Pi jailbreak dongle (keycha1n)
+open-source auto invoker for the checkra1n jailbreak (https://checkra.in)
 
 ## What is keycha1n?
 
